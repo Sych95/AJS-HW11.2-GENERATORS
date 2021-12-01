@@ -1,0 +1,41 @@
+{
+  "name": "ajs-hw11.2-generators",
+  "version": "1.0.0",
+  "description": "Symbols & generators",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sych95/AJS-HW11.2-GENERATORS.git"
+  },
+  "keywords": [
+    "Symbols",
+    "Generators"
+  ],
+  "author": "Sych95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sych95/AJS-HW11.2-GENERATORS/issues"
+  },
+  "homepage": "https://github.com/Sych95/AJS-HW11.2-GENERATORS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.2"
+  }
+}
